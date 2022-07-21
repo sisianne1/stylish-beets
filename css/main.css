@@ -1,8 +1,9 @@
 html {
   background-color: #c9b5ab;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-size: 1.125rem;
   line-height: 1.5;
+  color: #222;
   box-sizing: border-box;
 }
 
@@ -12,7 +13,7 @@ html {
 
 h1 {
   color: #3f1622;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
 }
 
@@ -22,7 +23,7 @@ h1 i {
 
 h2 {
   color: #3f1622;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
 }
 
@@ -32,18 +33,19 @@ nav ol {
 
 nav a {
   color: #8f2440;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: bold;
   text-decoration: none;
 }
 
 nav a:hover {
   text-decoration: underline;
+  background-color: #222;
 }
 
 figure figcaption {
   font-style: italic;
-  font-size: 0.8rem;
+  font-size: .8rem;
   text-align: center;
 }
 
@@ -57,7 +59,7 @@ blockquote strong {
 }
 
 blockquote footer cite {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 ol {
@@ -85,11 +87,11 @@ aside ul {
 }
 
 aside li {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 footer {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 footer a {
