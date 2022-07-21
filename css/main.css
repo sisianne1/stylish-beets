@@ -17,7 +17,7 @@ h1 {
 }
 
 h1 i {
-  font-style:italic;
+  font-style: italic;
 }
 
 h2 {
@@ -34,10 +34,11 @@ nav a {
   color: #8f2440;
   font-family: 'PT Sans', sans-serif;
   font-weight: bold;
+  text-decoration: none;
 }
 
-nav a {
-  text-decoration: none;
+nav a:hover {
+  text-decoration: underline;
 }
 
 figure figcaption {
@@ -48,7 +49,7 @@ figure figcaption {
 
 blockquote p {
   font-size: 1.5rem;
-  font-style:italic;
+  font-style: italic;
 }
 
 blockquote strong {
@@ -60,18 +61,18 @@ blockquote footer cite {
 }
 
 ol {
-  list-style-type:lower-greek;
+  list-style-type: lower-greek;
 }
 
 h2 p {
   font-style: italic;
 }
 
-figure+p {
+figure + p {
   font-weight: bold;
 }
 
-h2+p {
+h2 + p {
   font-style: italic;
 }
 
