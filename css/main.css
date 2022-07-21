@@ -1,0 +1,92 @@
+html {
+  background-color: #c9b5ab;
+  font-family: 'PT Serif', serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  color: #3f1622;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5rem;
+}
+
+h1 i {
+  font-style:italic;
+}
+
+h2 {
+  color: #3f1622;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5rem;
+}
+
+nav ol {
+  list-style-type: none;
+}
+
+nav a {
+  color: #8f2440;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+
+figure figcaption {
+  font-style: italic;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+blockquote p {
+  font-size: 1.5rem;
+  font-style:italic;
+}
+
+blockquote strong {
+  font-weight: normal;
+}
+
+blockquote footer cite {
+  font-size: 0.8rem;
+}
+
+ol {
+  list-style-type:lower-greek;
+}
+
+h2 p {
+  font-style: italic;
+}
+
+figure+p {
+  font-weight: bold;
+}
+
+h2+p {
+  font-style: italic;
+}
+
+dl dt {
+  font-weight: bold;
+}
+
+aside ul {
+  list-style-type: circle;
+}
+
+aside li {
+  font-size: 0.8rem;
+}
+
+footer {
+  font-size: 0.8rem;
+}
+
+footer a {
+  color: #8f2440;
+}
