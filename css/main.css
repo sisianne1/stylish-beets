@@ -36,6 +36,10 @@ nav a {
   font-weight: bold;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 figure figcaption {
   font-style: italic;
   font-size: 0.8rem;
