@@ -25,14 +25,14 @@ nav ol {
   list-style-type: none;
 }
 
-nav a {
+a {
   color: #8f2440;
   font-family: "PT Sans", sans-serif;
   font-weight: bolder;
   text-decoration: none;
 }
 
-nav a:hover {
+a:hover {
   text-decoration: underline;
   color: #3f1622;
 }
